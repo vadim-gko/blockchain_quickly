@@ -1,0 +1,47 @@
+const NFT20 = require("nft20");
+
+rpcEndpoint = "https://mainnet.infura.io/v3/a634422ef8f84eeab6c55d89d1a38e5d";
+
+// Instantiate the library by providing an RPC endpoint
+const nft20 = new NFT20(rpcEndpoint);
+
+async function getPools() {
+  // List all pools
+  let pools = await nft20.getPools();
+  return pools;
+}
+
+async function getPool(
+  nftAddress = "0xf3e6dbbe461c6fa492cea7cb1f5c5ea660eb1b47"
+) {
+  // Paste NFT address to the pool
+  let pool = await nft20.getPool(nftAddress);
+  return pool;
+}
+
+async function getPoolContent(
+  nftAddress = "0xc3f733ca98e0dad0386979eb96fb1722a1a05e69"
+) {
+  // Paste NFT address to the pool
+  let pool = await nft20.getPoolContent(nftAddress);
+  return pool;
+}
+
+/**
+ * 
+ * @param {*} selectedNFT
+ * @param {*} id 
+ * @param {*} account 
+ */
+async function buyNFT(selectedNFT, id, account) {
+  let params = await nft20.buyNFT(selectedNFT, [id], [1], account);
+  params.from = account;
+  const txHash = await ethereum.request({
+    method: "eth_sendTransaction",
+    params: [params],
+  });
+}
+
+const pools = Promise.resolve(getPoolContent()).then((value) =>
+  console.log(value)
+);
