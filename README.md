@@ -6,7 +6,7 @@ Collection of information for quick introduction into Ethereum blockchain
 Ethereum simulator for development purposes.
 
 * Metamask </br>
-Crypto wallet
+Crypto wallet (an extention in a browser or an application)
 
 * Web3js </br>
 A collection of libraries that allow you to interact with a local or remote ethereum node using HTTP, IPC or WebSocket. </br>
@@ -26,7 +26,13 @@ https://ethereumdev.io/nft20-how-to-simply-trade-nfts-in-js/ </br>
 ## Main terms
 **Solidity** is a statically typed, contract-oriented, high-level language for implementing smart contracts on the Ethereum platform. </br>
 **DAPP** (decentralized application) https://www.investopedia.com/terms/d/decentralized-applications-dapps.asp
+**DeFi** (Decentralized Financials) protocol </br>
+**ECR-20** - smart contract standard on Ethereum </br>
 
 ## Links
 Ethereum docks </br> https://ethereum.org/en/developers/docs/frameworks/ </br>
 Ropsten - test Ethereum blockchain </br> https://ropsten.etherscan.io/ </br>
+
+## Code
+In a `cryptoServices` placed simple examples of instruments used for developing
+
