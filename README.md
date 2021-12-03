@@ -24,6 +24,8 @@ https://www.npmjs.com/package/nft20 </br>
 https://ethereumdev.io/nft20-how-to-simply-trade-nfts-in-js/ </br>
 
 ## Main terms
+**Ethereum Gas** is a unit that measures the amount of computational effort that it will take to execute certain operations. </br> 
+https://blockgeeks.com/guides/ethereum-gas/ </br>
 **Solidity** is a statically typed, contract-oriented, high-level language for implementing smart contracts on the Ethereum platform. </br>
 **DAPP** (decentralized application) https://www.investopedia.com/terms/d/decentralized-applications-dapps.asp
 **DeFi** (Decentralized Financials) protocol </br>
