@@ -11,7 +11,7 @@ Crypto wallet (an extention in a browser or an application)
 * Web3js </br>
 A collection of libraries that allow you to interact with a local or remote ethereum node using HTTP, IPC or WebSocket. </br>
 
-###How to use: </br>
+### How to use: </br>
 https://web3js.readthedocs.io/en/v1.5.2/ </br>
 https://ethereumdev.io/setup-web3js-to-use-the-ethereum-blockchain-in-javascript/ </br>
 
@@ -21,7 +21,7 @@ https://ethereumdev.io/trading-and-arbitrage-on-ethereum-dex-get-the-rates-part-
 
 * nft20 </br>
 The NFT20 protocol offers NFT liquidity pools to help developers build the next generation of NFT apps </br>
-###How to use: </br>
+### How to use: </br>
 https://www.npmjs.com/package/nft20 </br>
 https://ethereumdev.io/nft20-how-to-simply-trade-nfts-in-js/ </br>
 
